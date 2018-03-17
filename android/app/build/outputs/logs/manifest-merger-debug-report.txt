@@ -1,0 +1,274 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:33:9-41:20
+	android:grantUriPermissions
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:37:13-47
+	android:authorities
+		INJECTED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:35:13-64
+	android:exported
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:34:13-67
+manifest
+ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:2:1-57:12
+MERGED from [ionic-team:capacitor-android:1.0.0-alpha.20] /home/ash/.gradle/caches/transforms-1/files-1.1/capacitor-android-1.0.0-alpha.20.aar/a27b70cdeb632428060485aa2f5cfdf5/AndroidManifest.xml:2:1-27:12
+MERGED from [com.android.support:design:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e4d514cd9158ff184307b8c05c8219c9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/373de3a8b44b6d79b235b6787b4daaeb/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ash/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/08ee4c7ae5c7037988e49e6857166494/AndroidManifest.xml:2:1-11:12
+MERGED from [:capacitor-android-plugins] /home/ash/Documents/vuetifypwa/node_modules/@capacitor/cli/assets/capacitor-android-plugins/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/23b1a46dea0cf0a08471292460684dcb/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/1e340167e8fc12c3f2a8b20920e4b46b/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:customtabs:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/d75f74bed30d7a6733a9986f29308e91/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/1c9cb2730a36bb28d6475d818e278d07/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/402ed6dd67b4de2f304a1bc922959155/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/91c8b579ddd6ebb59c75d68d10961372/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f7828c8a863849cc368436d80e216d8d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/09ff2f9dab4b8457e7861bc26bd0958e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/fb08d09e0d1fc1169a2e13c8552dec08/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/8fade5531a3ecb8a1aab8668e661f5b6/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c83f53df364ecb4efbbf640a9ae5b6f2/AndroidManifest.xml:17:1-31:12
+MERGED from [org.apache.cordova:framework:7.0.0] /home/ash/.gradle/caches/transforms-1/files-1.1/framework-7.0.0.aar/9077ea3475842db5d143bf1c0a351a59/AndroidManifest.xml:20:1-27:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ash/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bd0300108f70dcf116ed4de381d15c6a/AndroidManifest.xml:17:1-30:12
+INJECTED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:2:1-57:12
+	package
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:2:1-57:12
+		INJECTED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:2:1-57:12
+		INJECTED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:5:5-42:19
+MERGED from [ionic-team:capacitor-android:1.0.0-alpha.20] /home/ash/.gradle/caches/transforms-1/files-1.1/capacitor-android-1.0.0-alpha.20.aar/a27b70cdeb632428060485aa2f5cfdf5/AndroidManifest.xml:15:5-25:19
+MERGED from [ionic-team:capacitor-android:1.0.0-alpha.20] /home/ash/.gradle/caches/transforms-1/files-1.1/capacitor-android-1.0.0-alpha.20.aar/a27b70cdeb632428060485aa2f5cfdf5/AndroidManifest.xml:15:5-25:19
+MERGED from [com.android.support:design:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e4d514cd9158ff184307b8c05c8219c9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e4d514cd9158ff184307b8c05c8219c9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/373de3a8b44b6d79b235b6787b4daaeb/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/373de3a8b44b6d79b235b6787b4daaeb/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ash/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/08ee4c7ae5c7037988e49e6857166494/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ash/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/08ee4c7ae5c7037988e49e6857166494/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/23b1a46dea0cf0a08471292460684dcb/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/23b1a46dea0cf0a08471292460684dcb/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/1e340167e8fc12c3f2a8b20920e4b46b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/1e340167e8fc12c3f2a8b20920e4b46b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:customtabs:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/d75f74bed30d7a6733a9986f29308e91/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:customtabs:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/d75f74bed30d7a6733a9986f29308e91/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/1c9cb2730a36bb28d6475d818e278d07/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/1c9cb2730a36bb28d6475d818e278d07/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/402ed6dd67b4de2f304a1bc922959155/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/402ed6dd67b4de2f304a1bc922959155/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/91c8b579ddd6ebb59c75d68d10961372/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/91c8b579ddd6ebb59c75d68d10961372/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f7828c8a863849cc368436d80e216d8d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f7828c8a863849cc368436d80e216d8d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/09ff2f9dab4b8457e7861bc26bd0958e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/09ff2f9dab4b8457e7861bc26bd0958e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/fb08d09e0d1fc1169a2e13c8552dec08/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/fb08d09e0d1fc1169a2e13c8552dec08/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/8fade5531a3ecb8a1aab8668e661f5b6/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/8fade5531a3ecb8a1aab8668e661f5b6/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c83f53df364ecb4efbbf640a9ae5b6f2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c83f53df364ecb4efbbf640a9ae5b6f2/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ash/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bd0300108f70dcf116ed4de381d15c6a/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ash/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bd0300108f70dcf116ed4de381d15c6a/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.andrews.adminapp.MainActivity
+ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:13:9-31:20
+	android:label
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:16:13-56
+	android:configChanges
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:14:13-90
+	android:theme
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:17:13-62
+	android:name
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:15:13-61
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:19:13-22:29
+action#android.intent.action.MAIN
+ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:21:27-74
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:24:13-29:29
+action#android.intent.action.VIEW
+ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:26:17-76
+	android:name
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:26:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:27:17-78
+	android:name
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:27:27-75
+data
+ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:28:17-68
+	android:scheme
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:28:23-65
+uses-permission#android.permission.INTERNET
+ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:46:5-67
+	android:name
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:46:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:48:5-65
+	android:name
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:48:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:49:5-79
+	android:name
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:49:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:50:5-81
+	android:name
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:50:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:52:5-81
+	android:name
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:52:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:53:5-79
+	android:name
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:53:22-76
+uses-feature#android.hardware.location.gps
+ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:54:5-66
+	android:name
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:54:19-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:56:5-79
+	android:name
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:56:22-76
+uses-sdk
+INJECTED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml
+MERGED from [ionic-team:capacitor-android:1.0.0-alpha.20] /home/ash/.gradle/caches/transforms-1/files-1.1/capacitor-android-1.0.0-alpha.20.aar/a27b70cdeb632428060485aa2f5cfdf5/AndroidManifest.xml:7:5-9:41
+MERGED from [ionic-team:capacitor-android:1.0.0-alpha.20] /home/ash/.gradle/caches/transforms-1/files-1.1/capacitor-android-1.0.0-alpha.20.aar/a27b70cdeb632428060485aa2f5cfdf5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e4d514cd9158ff184307b8c05c8219c9/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e4d514cd9158ff184307b8c05c8219c9/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/373de3a8b44b6d79b235b6787b4daaeb/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/373de3a8b44b6d79b235b6787b4daaeb/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ash/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/08ee4c7ae5c7037988e49e6857166494/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ash/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/08ee4c7ae5c7037988e49e6857166494/AndroidManifest.xml:5:5-7:41
+MERGED from [:capacitor-android-plugins] /home/ash/Documents/vuetifypwa/node_modules/@capacitor/cli/assets/capacitor-android-plugins/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:capacitor-android-plugins] /home/ash/Documents/vuetifypwa/node_modules/@capacitor/cli/assets/capacitor-android-plugins/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/23b1a46dea0cf0a08471292460684dcb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/23b1a46dea0cf0a08471292460684dcb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/1e340167e8fc12c3f2a8b20920e4b46b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/1e340167e8fc12c3f2a8b20920e4b46b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/d75f74bed30d7a6733a9986f29308e91/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/d75f74bed30d7a6733a9986f29308e91/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/1c9cb2730a36bb28d6475d818e278d07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/1c9cb2730a36bb28d6475d818e278d07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/402ed6dd67b4de2f304a1bc922959155/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/402ed6dd67b4de2f304a1bc922959155/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/91c8b579ddd6ebb59c75d68d10961372/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/91c8b579ddd6ebb59c75d68d10961372/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f7828c8a863849cc368436d80e216d8d/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f7828c8a863849cc368436d80e216d8d/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/09ff2f9dab4b8457e7861bc26bd0958e/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/09ff2f9dab4b8457e7861bc26bd0958e/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/fb08d09e0d1fc1169a2e13c8552dec08/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/fb08d09e0d1fc1169a2e13c8552dec08/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/8fade5531a3ecb8a1aab8668e661f5b6/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/8fade5531a3ecb8a1aab8668e661f5b6/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c83f53df364ecb4efbbf640a9ae5b6f2/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c83f53df364ecb4efbbf640a9ae5b6f2/AndroidManifest.xml:21:5-23:58
+MERGED from [org.apache.cordova:framework:7.0.0] /home/ash/.gradle/caches/transforms-1/files-1.1/framework-7.0.0.aar/9077ea3475842db5d143bf1c0a351a59/AndroidManifest.xml:25:5-44
+MERGED from [org.apache.cordova:framework:7.0.0] /home/ash/.gradle/caches/transforms-1/files-1.1/framework-7.0.0.aar/9077ea3475842db5d143bf1c0a351a59/AndroidManifest.xml:25:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ash/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bd0300108f70dcf116ed4de381d15c6a/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/ash/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bd0300108f70dcf116ed4de381d15c6a/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e4d514cd9158ff184307b8c05c8219c9/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:38:13-40:64
+	android:resource
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:40:17-51
+	android:name
+		ADDED from /home/ash/Documents/vuetifypwa/android/app/src/main/AndroidManifest.xml:39:17-67
+uses-feature#android.hardware.camera
+ADDED from [ionic-team:capacitor-android:1.0.0-alpha.20] /home/ash/.gradle/caches/transforms-1/files-1.1/capacitor-android-1.0.0-alpha.20.aar/a27b70cdeb632428060485aa2f5cfdf5/AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from [ionic-team:capacitor-android:1.0.0-alpha.20] /home/ash/.gradle/caches/transforms-1/files-1.1/capacitor-android-1.0.0-alpha.20.aar/a27b70cdeb632428060485aa2f5cfdf5/AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from [ionic-team:capacitor-android:1.0.0-alpha.20] /home/ash/.gradle/caches/transforms-1/files-1.1/capacitor-android-1.0.0-alpha.20.aar/a27b70cdeb632428060485aa2f5cfdf5/AndroidManifest.xml:12:9-47
+service#com.getcapacitor.plugin.background.BackgroundTaskService
+ADDED from [ionic-team:capacitor-android:1.0.0-alpha.20] /home/ash/.gradle/caches/transforms-1/files-1.1/capacitor-android-1.0.0-alpha.20.aar/a27b70cdeb632428060485aa2f5cfdf5/AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from [ionic-team:capacitor-android:1.0.0-alpha.20] /home/ash/.gradle/caches/transforms-1/files-1.1/capacitor-android-1.0.0-alpha.20.aar/a27b70cdeb632428060485aa2f5cfdf5/AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [ionic-team:capacitor-android:1.0.0-alpha.20] /home/ash/.gradle/caches/transforms-1/files-1.1/capacitor-android-1.0.0-alpha.20.aar/a27b70cdeb632428060485aa2f5cfdf5/AndroidManifest.xml:23:13-84
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e4d514cd9158ff184307b8c05c8219c9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/373de3a8b44b6d79b235b6787b4daaeb/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/373de3a8b44b6d79b235b6787b4daaeb/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/23b1a46dea0cf0a08471292460684dcb/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/23b1a46dea0cf0a08471292460684dcb/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/1e340167e8fc12c3f2a8b20920e4b46b/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/1e340167e8fc12c3f2a8b20920e4b46b/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:customtabs:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/d75f74bed30d7a6733a9986f29308e91/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:customtabs:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/d75f74bed30d7a6733a9986f29308e91/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/1c9cb2730a36bb28d6475d818e278d07/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/1c9cb2730a36bb28d6475d818e278d07/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/402ed6dd67b4de2f304a1bc922959155/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/402ed6dd67b4de2f304a1bc922959155/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/91c8b579ddd6ebb59c75d68d10961372/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/91c8b579ddd6ebb59c75d68d10961372/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f7828c8a863849cc368436d80e216d8d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f7828c8a863849cc368436d80e216d8d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/09ff2f9dab4b8457e7861bc26bd0958e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/09ff2f9dab4b8457e7861bc26bd0958e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/fb08d09e0d1fc1169a2e13c8552dec08/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/fb08d09e0d1fc1169a2e13c8552dec08/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/8fade5531a3ecb8a1aab8668e661f5b6/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/8fade5531a3ecb8a1aab8668e661f5b6/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c83f53df364ecb4efbbf640a9ae5b6f2/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c83f53df364ecb4efbbf640a9ae5b6f2/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e4d514cd9158ff184307b8c05c8219c9/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] /home/ash/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e4d514cd9158ff184307b8c05c8219c9/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/ash/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bd0300108f70dcf116ed4de381d15c6a/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/ash/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bd0300108f70dcf116ed4de381d15c6a/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/ash/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bd0300108f70dcf116ed4de381d15c6a/AndroidManifest.xml:26:13-58
