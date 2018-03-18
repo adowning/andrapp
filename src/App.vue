@@ -9,6 +9,11 @@
       fixed
       app
     >
+      <v-toolbar-title v-text="title"></v-toolbar-title>
+    
+     <v-btn icon @click.stop="miniVariant = !miniVariant">
+        <v-icon v-html="miniVariant ? 'chevron_right' : 'chevron_left'"></v-icon>
+      </v-btn>
       <v-list>
         <v-list-tile
           value="true"
@@ -30,16 +35,13 @@
       :clipped-left="clipped"
     >
       <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
-      <v-btn icon @click.stop="miniVariant = !miniVariant">
-        <v-icon v-html="miniVariant ? 'chevron_right' : 'chevron_left'"></v-icon>
-      </v-btn>
-      <v-btn icon @click.stop="clipped = !clipped">
+     
+      <!-- <v-btn icon @click.stop="clipped = !clipped">
         <v-icon>web</v-icon>
-      </v-btn>
-      <v-btn icon @click.stop="fixed = !fixed">
+      </v-btn> -->
+      <!-- <v-btn icon @click.stop="fixed = !fixed">
         <v-icon>remove</v-icon>
-      </v-btn>
-      <v-toolbar-title v-text="title"></v-toolbar-title>
+      </v-btn> -->
       <v-spacer></v-spacer>
       <v-btn icon @click.stop="rightDrawer = !rightDrawer">
         <v-icon>menu</v-icon>
@@ -65,29 +67,34 @@
       </v-list>
     </v-navigation-drawer>
     <v-footer :fixed="fixed" app>
-      <span>&copy; 2017</span>
+      <span>&copy; 2018</span>
     </v-footer>
   </v-app>
 </template>
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       clipped: false,
       drawer: true,
       fixed: false,
-      items: [{
-        icon: 'bubble_chart',
-        title: 'Inspire',
-        to: '/'
-      }],
+      items: [
+        {
+          icon: "bubble_chart",
+          title: "Inspire",
+          to: "/"
+        }
+      ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js'
+      title: "Vuetify.js"
     }
   },
-  name: 'App'
+  name: 'App',
+  created() {
+    console.log("asdf")
+  }
 }
 </script>
